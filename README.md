@@ -1,4 +1,4 @@
-
+﻿
 # Areas of Crime in our Nation's Capital
 
 Being a resident of our nation’s capital, I was curious to learn more about the city. I was not looking for anything in particular, just curious. I started with viewing the Wikipedia. Learning about the history, architecture, culture, population, among other things. Being that Washington DC is the capital, there is no shortage of unique information. 
@@ -456,7 +456,6 @@ m.save(os.path.join('maps', 'dc_map_2017_1.html'))
 ```
 
 ![map1.png](https://github.com/masoodaqaim/crime_dc/blob/master/maps/map1.png)
-
 
 Great, it works.
 
@@ -2125,11 +2124,12 @@ Links to research:
     [NbConvertApp] Making directory Choropleth_map_files
     [NbConvertApp] Making directory Choropleth_map_files
     [NbConvertApp] Making directory Choropleth_map_files
-    [NbConvertApp] Writing 2053924 bytes to Choropleth_map.md
+    [NbConvertApp] Making directory Choropleth_map_files
+    [NbConvertApp] Making directory Choropleth_map_files
+    [NbConvertApp] Writing 57772 bytes to Choropleth_map.md
     
 
 
 ```python
 
 ```
-# crime_dc
