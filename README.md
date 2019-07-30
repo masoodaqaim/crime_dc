@@ -455,7 +455,8 @@ folium.Choropleth(geo_data=geo_data).add_to(m)
 m.save(os.path.join('maps', 'dc_map_2017_1.html'))
 ```
 
-![map1.png](attachment:map1.png)
+![map1.png](https://github.com/masoodaqaim/crime_dc/blob/master/maps/map1.png)
+
 
 Great, it works.
 
@@ -563,7 +564,7 @@ folium.Choropleth(
 m.save(os.path.join('maps', 'dc_map_2017_2.html'))
 ```
 
-![map2.png](attachment:map2.png)
+![map2.png](https://github.com/masoodaqaim/crime_dc/blob/master/maps/map2.png)
 
 Great! The choropleth maps works with all the data shadded. Unfortunately, the legend seems to be in the way and it cannot (or I just can't figure it out) be removed.
 
@@ -668,7 +669,7 @@ for name, lat, lon in zip(names, lats, lons):
 m.save(os.path.join('maps', 'dc_map_2017_3.html'))
 ```
 
-![map3.png](attachment:map3.png)
+![map3.png](https://github.com/masoodaqaim/crime_dc/blob/master/maps/map3.png)
 
 ## Adding a Heatmap for Violent Crime 
 
@@ -729,7 +730,7 @@ folium.LayerControl(collapsed=False).add_to(m) # the LayerControl must be added 
 m.save(os.path.join('maps', 'dc_map_2017_4.html'))
 ```
 
-![map4.png](attachment:map4.png)
+![map4.png](https://github.com/masoodaqaim/crime_dc/blob/master/maps/map4.png)
 
 The heatmap works and interesting enough, there seems to be an area in DC where violent crime is absent. Let's explore more of the crime data.
 
