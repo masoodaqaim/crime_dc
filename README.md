@@ -1,15 +1,15 @@
 ﻿
 # Areas of Crime in our Nation's Capital
 
-Being a resident of our nation’s capital, I was curious to learn more about the city. I was not looking for anything in particular, just curious. I started with viewing the Wikipedia. Learning about the history, architecture, culture, population, among other things. Being that Washington DC is the capital, there is no shortage of unique information. 
+Being a resident of our nation’s capital, I was interested to learn more about the city. I was not looking for anything in particular, just curious. I started with viewing the Wikipedia. Learning about the history, architecture, culture, population, among other things. Being that Washington DC is the capital, there is no shortage of unique information. 
 
-I was also curious on how to build an interactive map. Something of a challenge to myself. Then I got the idea to use the city’s demographics (population, income, home value, etc.) and with power of the Folium library, build a choropleth map to visually see the differences. I included crime data as well, specifically violent gun-related crime, and noticed a very distinctive trend. Areas where there are high income, high home value, and high education had almost no violent crime. I had to learn more and find out if there are other demographics that contribute to violent crime.
+As a challenge to myself, I decided to build an interactive choropleth map using the city’s demographics (population, income, home value, etc.) to visually see differences. I included crime data as well, specifically violent gun-related crime, and noticed a very distinctive trend. Areas of high income, high home value, and high education had almost no violent crime. I was interested to learn more and find out if there are other demographics that contribute to violent crime.
 
 __Questions__
 1.	Building a choropleth map, can we find a “boundary” which separates crime from non-crime?
 2.	Can we predict if a particular area (census district) will be high in violent gun-related crimes?
 
-__(note, throughout this notebook, any mention of the word crime specifically means violent gun-related crime)__
+__(Note, throughout this notebook, any mention of the word crime specifically means violent gun-related crime. All data is pulled from 2017 only)__
 
 Here is how I tackled the problem 
 -	Research what contributes to crime
